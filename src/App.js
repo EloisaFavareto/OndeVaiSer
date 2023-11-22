@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Footer from './pages/Footer';
-import Header from './pages/Header';
-import Card from './pages/Card';
+// import Footer from './pages/Footer';
+// import Header from './pages/Header';
+// import Card from './pages/Card';
+import Formulario from './pages/Formulario';
 
 function App() {
   return (
    <>
-   <Header />
+   {/* <Header />
    <Card />
-   <Footer />
+   <Footer /> */}
+   <Formulario />
    </>
   );
 }
